@@ -1,7 +1,7 @@
 .places {
   width: calc(100% - 148px*2);
   margin: 0 auto;
-  padding: 12px 0 92px;
+  padding-top: 12px;
 }
 
 
@@ -13,15 +13,14 @@
 
 @media screen and (max-width: 1023px) { 
   .places {
-    padding-top: 88px;
-    padding-bottom: 88px;
+    padding-top: 15px;
     width: calc(100% - 24px*2);
   } 
 } 
 
 @media screen and (max-width: 767px) { 
   .places {
-    padding-top: 64px;
+    padding-top: 14px;
     width: 100%;
   } 
 }

@@ -1,3 +1,18 @@
+.footer__services-item {
+    margin-right: 18px;
+}
+
 .footer__services-item:hover {
     opacity: .8;
+}
+
+
+@media screen and (max-width:767px){
+    .footer__services-item {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+    .footer__services-item:last-of-type {
+        margin-bottom: 0;
+    }
 }

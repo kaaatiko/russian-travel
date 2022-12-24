@@ -6,10 +6,6 @@
     font-weight: 400;
 }
 
-.header__lang-link:focus {
-    text-decoration: underline;
-}
-
 .header__lang-link:hover {
     opacity: .8;
 }
