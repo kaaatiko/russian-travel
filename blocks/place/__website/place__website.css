@@ -1,0 +1,11 @@
+.place__web-site {
+    display: inline-block;
+    align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+    .place__web-site {
+        width: calc(100% - 16px - 16px);
+        margin-left: 16px;
+    }
+}

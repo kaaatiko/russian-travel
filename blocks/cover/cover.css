@@ -1,0 +1,30 @@
+.cover {
+    background-image: url(../../images/cover-trains.jpg);
+    position: relative;
+    background-size: cover;
+    padding-top: 62.5%;
+    max-width: 1184px;
+    /* min-height: 740px; */
+    max-height: 740px;
+    box-sizing: border-box;
+    background-position: 50% 50%;
+    margin: 0 auto;
+}
+
+@media screen and (width: 1025px) {
+    .cover {
+        max-height: 640px;
+    }
+}
+
+@media screen and (width: 769px) {
+    .cover {
+        max-height: 480px;
+    }
+}
+
+@media screen and (width: 321px) {
+    .cover {
+        max-height: 200px;
+    }
+}
